@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Offer Brite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="email_address_text">Email Address</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">LOGIN</string>
+    <string name="facebook_text">FACEBOOK LOGIN</string>
+    <string name="forgot_your_password_text"><u>Forgot password?</u></string>
+    <string name="sign_up_text"><u>Sign up</u></string>
+    <string name="google_login_text">GOOGLE+ LOGIN</string>
+    <string name="continue_as_guest_test"><u>Continue as guest</u></string>
+    <string name="user_name_text">Username</string>
+    <string name="country_text">Country</string>
+    <string name="agreeing_terms_of_use">By clicking sign up you are agreeing to the <u>Terms of use</u></string>
+    <string name="terms_and_condition_text"><u>Terms and Condition</u></string>
+    <string name="buy_more_save_more_text">Buy More Save More!</string>
+    <string name="filter_text">Filter</string>
+    <string name="sign_up_now_text">SIGN UP NOW</string>
+    <string name="temp_text">Best practices on internal and external temporary files:  Internal Cache  If you\'d like to cache some data, rather than store it persistently, you should use getCacheDir() to open a File that represents the internal directory where your application should save temporary cache files.  When the device is low on internal storage space, Android may delete these cache files to recover space. However, you should not rely on the system to clean up these files for you. You should always maintain the cache files yourself and stay within a reasonable limit of space consumed, such as 1MB. When the user uninstalls your application, these files are removed. External Cache  To open a File that represents the external storage directory where you should save cache files, call getExternalCacheDir(). If the user uninstalls your application, these files will be automatically deleted.  Similar to ContextCompat.getExternalFilesDirs(), mentioned above, you can also access a cache directory on a secondary external storage (if available) by calling ContextCompat.getExternalCacheDirs().  Tip: To preserve file space and maintain your app\'s performance, it\'s important that you carefully manage your cache files and remove those that aren\'t needed anymore throughout your app\'s lifecycle.</string>
+    <string name="to_text">to</string>
+    <string name="time_text">Time:</string>
+    <string name="date_text">Date:</string>
+    <string name="follows_text">Follows</string>
+    <string name="likes_text">Likes</string>
+    <string name="additional_information_text">Additional Information:</string>
+</resources>
